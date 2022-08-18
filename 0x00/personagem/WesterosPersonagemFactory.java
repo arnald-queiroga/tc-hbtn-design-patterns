@@ -13,5 +13,4 @@ public class WesterosPersonagemFactory extends PersonagemFactory{
 
         return personagem;
     }
-}
-
+} 
