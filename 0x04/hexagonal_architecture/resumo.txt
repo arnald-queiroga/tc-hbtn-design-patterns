@@ -1,0 +1,17 @@
+ O que é Arquitetura Hexagonal e por quem ela foi criada ?
+Basicamente, a  Arquitetura hexagonal se baseia em dividir uma aplicação em camadas de acordo com suas responsabilidades e visa dar imporância a uma camada em especial, que é  justamenta a camada onde se encontra a principal lógica da aplicação e a camada de domínio 
+Foi uma arquitetura proposta por Alistair Cockburn. E, esta é uma arquitetura que visa reutilizar bastante códigos, e se destaca por ser de baixo acoplamento, e não depende tanto assim de tecnologias específicas.
+
+
+Quais são os benefícios e recursos que Arquitetura Hexagonal fornece?
+Logo de cara podemos observar uma grande vantagem, que é o fato de desacoplar esses dois tipos de classes. Dessa forma, as classes de domínio acabam  não "conhecendo" as tecnologias empregadas na aplicação , interfaces com usuário e bibliotecas, bem como o banco e dados , E por consequência, as mudanças que eventualmente podem acontecer em termo de tecnologia, facilmente podem ser realizadas sem que haja impactos na as classes de domínio, por exemplo.
+
+Quais as diferenças entre Arquitetura Hexagonal e Clean Architecture ?
+Na Clean architecture
+Podemos encontrar uma certa semelhança em relação a  arquitetura Hexagonal, mas no entanto,  ela acompanha a linha de abordagem que é proposto pelo padrão Onion architecture. De uma forma diferente, ela busca representar a hierarquia entre as camadas, porém acaba mantendo as proposições de isolamento e inversão de dependências.
+
+
+Na sua opinião, a Arquitetura Hexagonal pode ser utilizada em qualquer tipo de projeto ? Quais informações devem ser consideradas antes de desenvolver sistemas usando esse padrão de projeto ?
+
+É uma opnião bem relativa, visto que vai depender da estratégia abordada de acordo com a proposta da implantação da aplicação, sendo assim, o ideal é realizar uma análise para ter conhecimento sobre a estrutura do projeto. Apesar da arquitetura hexagonal possuir a capacidade de ser aplicada na maioria dos projetos que se vê, e, sabendo que no mundo da tecnologia "não existe bala de prata", o ideal é aplicar a arquitetura que melhor possa atender os eventuais requisitos dispostos em um projeto, é claro.
+
