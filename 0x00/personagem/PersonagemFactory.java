@@ -1,4 +1,4 @@
 abstract class PersonagemFactory {
 
-    abstract Personagem createPersonagem(TipoPersonagem tipoPersonagem, String nome);
+    public abstract Personagem createPersonagem(TipoPersonagem tipoPersonagem, String nome);
 }
