@@ -4,7 +4,7 @@ public class Mago extends Personagem{
         super(nome, TipoPersonagem.MAGO, inteligencia, forca, vigor, resistencia, destreza);
 
         if (inteligencia < forca || inteligencia < destreza){
-            throw new IllegalArgumentException("Atributos invalidos para GUERREIRO");
+            throw new IllegalArgumentException("Atributos invalidos para MAGO");
         }
     }
 
